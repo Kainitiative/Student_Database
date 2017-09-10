@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/admin_view"
+            android:title="View" />
+        <item
+            android:id="@+id/admin_insert"
+            android:title="Insert" />
+        <item
+            android:id="@+id/admin_update"
+            android:title="Update" />
+        <item
+            android:id="@+id/admin_delete"
+            android:title="Delete" />
+        <item
+            android:id="@+id/admin_logout"
+            android:title="Logout" />
+    </group>
+
+</menu>

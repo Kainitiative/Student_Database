@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Student Database Management</string>
+    <string name="title_activity_student_drawer">Student</string>
+
+    <string name="admin_login">Admin Login</string>
+    <string name="student_login">Student Login</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_admin_drawer">Admin</string>
+</resources>

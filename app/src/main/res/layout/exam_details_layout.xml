@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:weightSum="7"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Exam Name : "
+                android:textSize="20dp"
+                android:layout_width="120dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/exam_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Student ID : "
+                android:textSize="20dp"
+                android:layout_width="120dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/exam_studid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Semester : "
+                android:textSize="20dp"
+                android:layout_width="120dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/exam_sem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Marks : "
+                android:textSize="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/exam_marks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Duration : "
+                android:textSize="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/exam_duration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Exam Date : "
+                android:textSize="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/exam_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <Button
+            android:text="Insert"
+            android:onClick="addExamDetails"
+            android:id="@+id/exam_click"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

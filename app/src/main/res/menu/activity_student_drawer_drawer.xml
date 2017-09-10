@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/stud_personal"
+            android:title="Student Personal Details" />
+        <item
+            android:id="@+id/stud_academic"
+            android:title="Academic Details" />
+        <item
+            android:id="@+id/stud_exam"
+            android:title="Exam Details" />
+        <item
+            android:id="@+id/stud_announce"
+            android:title="Announcements" />
+        <item
+            android:id="@+id/stud_logout"
+            android:title="Logout"/>
+    </group>
+
+</menu>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="learning.example.com.studentdetails.AdminDrawer"
+    tools:showIn="@layout/app_bar_admin_drawer">
+    <LinearLayout
+        android:id="@+id/ll"
+        android:weightSum="4"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="Student Personal Details"
+            android:layout_weight="1"
+            android:onClick="funcStudentDetails"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="Academic Details"
+            android:layout_weight="1"
+            android:onClick="funcAcademicDetails"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="Exam Details"
+            android:layout_weight="1"
+            android:onClick="funcExamDetails"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="Announcements"
+            android:layout_weight="1"
+            android:layout_width="220dp"
+            android:onClick="funcAnnouncementsDetails"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_above="@id/ll"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/edit_search"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>
