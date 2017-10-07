@@ -1,8 +1,6 @@
 package learning.example.com.studentdetails;
 
-/**
- * Created by rishav on 27/8/17.
- */
+
 
 public class StudentPersonalDetails {
     private String roll;
