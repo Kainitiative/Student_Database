@@ -9,9 +9,7 @@ import android.text.Annotation;
 
 import java.util.ArrayList;
 
-/**
- * Created by rishav on 26/8/17.
- */
+
 
 public class DatabaseCreation extends SQLiteOpenHelper {
 
